@@ -1,0 +1,15 @@
+# calculator files and archives are binary
+*.8xp binary
+*.8xv binary
+*.8xg binary
+*.zip binary
+*.png binary
+# keep sources LF on every platform
+*.c text eol=lf
+*.h text eol=lf
+*.s text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+makefile text eol=lf

@@ -1,0 +1,55 @@
+; DREAD episode 1, map 2: coolant plant. A service corridor links the lift
+; (start), the west pump room (blue keycard in the alcove north of it), the
+; coolant hall (red door north to the control deck and the exit) and the
+; east storage behind the blue door (red keycard, rotary cannon). Three
+; secrets: a plate in the lift room, a pipe panel in the corridor's south
+; wall, a hazard panel in the coolant hall's east wall.
+name: Coolant Tunnels
+ceiling: steel 9
+floor: gray 9
+light: 0 13
+legend:
+  $ = secret metal_plate
+  % = secret metal_pipes
+  + = secret metal_hazard
+map:
+##############################################
+###############CCCCCCCCXCCCCCCCCC#############
+###############Ct..............tC#############
+###############C..........@.....C#############
+###############C..2..........2..C#############
+#VVVVVVV#######C................C#############
+#Vt...sV#######C.......3........C#############
+#V..j..V#######C....7...........C#############
+#V.1...V#######C.m............c.C#############
+#V.....V#######CCCCCCCC.CCCCCCCCCMMMMMMMMMMMM#
+#VVV.VVV###############.#########M..........M#
+#QQQDQQQQQQQQQQQZZZZZZZRZZZZZZZZ#M.k......u.M#
+#Q.............QZ..............Z#M.....2..6.M#
+#Q.6.........5.QZ.3....7.....3.Z#M..QQ......M#
+#Q......2......QZ..............Z#M..QQ......M#
+#Q...ZZ...ZZ...QZ...MM....MM...Z#M......3...M#
+#Q...ZZ...ZZ...QZ...MM....MM...Z#M.5.......wM#
+#Q.............QZ..............Z#M......QQ..M#
+#Qn.....3.....mQZ.&....2.....6.Z#M......QQ..M#
+#Q.............QZ..............ZoM..........M#
+#Q...ZZ...ZZ...QZ...MM....MM...+.M..QQ......M#
+#Q...ZZ...ZZ...QZ...MM....MM...ZnM..QQ......M#
+#Q......z......QZ......d.......Z#M.2......1.M#
+#Q.1.........1.QZ.1..........1.Z#M.....!....M#
+#Q......@......QZs..........n..Z#Mm........nM#
+#Q.............QZZZZZZZ.ZZZZZZZZ#MMMMM.MMMMMM#
+#QQQQQQQ.QQQQQQQ#######.##############.#######
+###QQQQQDQQQQQQQQQQQQQQDQQQQQQQQQQQQQQUQQQQ###
+###Q........1................d..........!.Q###
+###Q..5..........c...............1........Q###
+###QQQQQQQ%QQQQQQQQQQQ.QQQQQQQQQQQQQQQQQQQQ###
+#########..c#######MMMDMMMM###################
+#########.m.#######Mw.....M###################
+#########f..####e..M....c.M###################
+################.a.$......M###################
+################..eM......M###################
+###################M..^...M###################
+###################M.s...wM###################
+###################MMMMMMMM###################
+##############################################

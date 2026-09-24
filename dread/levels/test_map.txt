@@ -1,0 +1,57 @@
+; DREAD engine test map. The emulator tests load it in place of level 1
+; (build/testvars/DREADL1.8xv); it is not part of the release. One area per
+; wall theme, doors, keycards, secrets and monsters (1 grunt, 2 heavy
+; trooper, 3 imp, 4 brute). Route: start (tech) -> east door -> vent
+; corridor -> stone hall (red keycard; a flush stone wall at the hall's
+; north-west hides a secret). Start -> south door -> brick courtyard (secret
+; in its south wall) -> red door -> metal room (scattergun, blue keycard) ->
+; blue door -> gallery (yellow keycard) -> yellow door -> hell cave, exit
+; switch on the west wall.
+name: Engine Test
+ceiling: steel 7
+floor: brown 6
+light: 0 11
+legend:
+  $ = secret stone_gray
+  % = secret brick_red
+map:
+################################SSSSSSSSSSSSSSSS
+########CCCC##############.o....S..............S
+######........############...b..$.t..........t.S
+######......s.VVVVIVVVIVVVIVVVIVS.....1........S
+#####I..C..C..#.......1.........S...SS....SS...S
+######........D.....c......c....D...SS....SS...S
+#####I........#..............1..S...........1..S
+######.a.^..c.VVVVVVVVVVVVVVVVVVS.......n...p..S
+######........##################S..3...........S
+#########.######################S...SS....SS...S
+#########D######################S...SS....SS...S
+BBBBBBBBB.BBBBBBMMMQMMQMMQMMQMMMS.......2......S
+B..............BM..............MS.t..........k.S
+B.w..........w.BM.f....m.....w.MS..............S
+B...........3..BM.........2....MSSSSSSSYSSSSSSSS
+B...O......O...BM...Q......Q...MJJJJJJJ.JJJJJJJJ
+B..............BM..............MJ..............J
+B...1..........BM..............MJ.n..........t.J
+B......O.......BM..............MJ....3.........J
+B....s.O........R.......g.......U..............J
+B......O....e..BM..............MJ..............J
+B..............BM..............MJ.......u......J
+B.........1....BM...3..........MJ...........3..J
+B...O......O...BM...Q......Q...MJ..............J
+B..............BM...........1..MJ..............J
+B.m..........e.BM.w..........j.MJ.t.....2....y.J
+B..............BM..............MJ..............J
+BBBBBBB%BBBBBBBBMMZMMMZMMMZMMMMMJJJJJJZYZJJJJJJJ
+#######.#########LLLLLLLLLLLLLLLLLLLLLL.LLLLLLLL
+####.......######L.............................L
+####.q.l.q.######F..i.1.......f.............i..F
+####.......######L......................4d.....L
+#################L..........F.......F..........L
+#################F.......z......GG.............F
+#################X....m.......4.GG........q....L
+#################L..........F.......F..........L
+#################F.............d......z.....3..F
+#################L..i...3...................i..L
+#################L.............................L
+#################LLLLLLLLLKKLLKKGGKKLLKKLLKKLLLL
